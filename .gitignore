@@ -1,0 +1,40 @@
+# Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+.venv/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & Debugging
+logs/
+*.log
+
+# Python dependencies
+*.egg-info/
+pip-log.txt
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Git & CI/CD
+.DS_Store
+.git/
+.github/workflows/.DS_Store
+
+# Terraform (if using)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# AWS Credentials (if using)
+.aws/
